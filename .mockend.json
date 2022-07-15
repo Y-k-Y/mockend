@@ -7,10 +7,10 @@
 			}
 		},
 		"username": {
-			"string": "[a-z]{6,16}"
+			"regexp": "[a-z]{6,16}"
 		},
 		"name": {
-			"string": "[가-힣]{3,5}"
+			"regexp": "[가-힣]{3,5}"
 		},
 		"nickname": {
 			"regexp": "[A-Z][a-z][가-힣]{6,16}"
