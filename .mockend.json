@@ -28,7 +28,7 @@
 			"regexp": "^010[0-9]{8}$"
 		},
 		"lastLoginAt": {
-			"dataTime": {
+			"dateTime": {
 				"min": "2022-07-07T00:00:00Z",
       				"max": "2023-12-31T23:59:59Z"
 			}
