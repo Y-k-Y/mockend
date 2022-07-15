@@ -19,10 +19,10 @@
 			"string": {}
 		},
 		"profileImage": {
-			"string": {}
+			"regexp": "https://out.amor.com/[A-Z][a-z]{16}.jpg"
 		},
 		"email": {
-			"regexp": "[A-z]{6,16}@[A-z]{3-5}\\.com"
+			"regexp": "[a-z]{6,16}@[a-z]{3,5}\\.com"
 		},
 		"phone": {
 			"regexp": "^010[0-9]{8}$"
