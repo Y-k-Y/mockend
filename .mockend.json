@@ -19,7 +19,7 @@
 			"string": {}
 		},
 		"profileImage": {
-			"regexp": "https://out.amor.com/[A-Z][a-z]{16}.jpg"
+			"regexp": "https://out\\.amor\\.com/[A-Z][a-z]{16}.jpg"
 		},
 		"email": {
 			"regexp": "[a-z]{6,16}@[a-z]{3,5}\\.com"
@@ -28,10 +28,7 @@
 			"regexp": "^010[0-9]{8}$"
 		},
 		"lastLoginAt": {
-			"dateTime": {
-				"min": "2022-07-07T00:00:00Z",
-      				"max": "2023-12-31T23:59:59Z"
-			}
+			"dateTime": {}
 		},
 		"isAvailable": {
 			"boolean": {}
