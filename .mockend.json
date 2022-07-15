@@ -6,7 +6,7 @@
     "nickname": { "string": {} },
     "description": { "string": {} },  
     "profileImage": { "string": {} },
-    "email": { "regexp": "[A-z]{6,16}@[A-z]{3-5}\.com" },
+    "email": { "regexp": "[A-z]{6,16}@[A-z]{3-5}.com" },
     "phone": { "regexp": "^010[0-9]{8}$" },
     "lastLoginAt": { "dataTime": {} },
     "isAvailable": { "boolean": {} },
