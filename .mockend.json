@@ -7,16 +7,16 @@
 			}
 		},
 		"username": {
-			"string": {}
+			"string": "[a-z]{6,16}"
 		},
 		"name": {
-			"string": {}
+			"string": "[가-힣]{3,5}"
 		},
 		"nickname": {
-			"string": {}
+			"regexp": "[A-Z][a-z][가-힣]{6,16}"
 		},
 		"description": {
-			"string": {}
+			"regexp": "[가-힇]{6,16}"
 		},
 		"profileImage": {
 			"regexp": "https://out\\.amor\\.com/[A-Z][a-z]{16}.jpg"
